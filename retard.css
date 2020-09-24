@@ -1,0 +1,19 @@
+* {
+    font-family: consolas;
+}
+
+table, td, th{
+    border: 1px dotted greenyellow;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 3px;
+}
+
+tr:nth-child(even){
+    background-color: red;
+}
